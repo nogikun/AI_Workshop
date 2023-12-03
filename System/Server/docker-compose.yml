@@ -26,13 +26,24 @@ services:
     volumes:
       - ./phpmyadmin/sessions:/sessions
   
-  web:
+  manager:
     image: python:3.10.12
     volumes:
-      - ./python/requirements.txt:/requirements.txt
-      - ./python/manage.py:/manage.py
+      - ./manager/requirements.txt:/requirements.txt
+      - ./manager/manager.py:/manager.py
     command: >
       bash -c "pip install -r requirements.txt
-      && python manage.py"
+      && python manager.py"
+    ports:
+      - "8001:5000"
+
+  stcak_server:
+    image: python:3.10.12
+    volumes:
+      - ./stack_server/requirements.txt:/requirements.txt
+      - ./stack_server/stack_server.py:/stack_server.py
+    command: >
+      bash -c "pip install -r requirements.txt
+      && python stack_server.py"
     ports:
       - "8000:5000"
