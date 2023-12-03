@@ -4,9 +4,9 @@
 - [AI\_Workshop 仕様書](#ai_workshop-仕様書)
     - [背景](#背景)
     - [システムの概要](#システムの概要)
-      - [データセットの拡張](#データセットの拡張)
-      - [FineTuning のリクエスト](#finetuning-のリクエスト)
-      - [管理サーバー](#管理サーバー)
+    - [1.データセットの拡張](#1データセットの拡張)
+    - [2.FineTuning のリクエスト](#2finetuning-のリクエスト)
+    - [3.管理サーバー](#3管理サーバー)
 
 ### 背景
 このレポジトリでは小学生向けのAIワークショップを行うために使用したソースコードをまとめております。
@@ -19,7 +19,10 @@
 
 当セクションではそれぞれの機能について解説する。
 
-#### データセットの拡張
+### 1.データセットの拡張
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/nogikun/blob/main/DataAugmentation_BERT.ipynb)
+<br> ※お手持ちのデバイスがGPUを搭載していない場合は、上記のボタンをクリックしてGoogle Colaboratory上で実行してください。
 
 |ファイル名|概要|
 |:-:|:-:|
@@ -29,7 +32,7 @@
 
 ![image:データ拡張の遷移図](https://github.com/nogikun/AI_Workshop/assets/94681885/5abc5b69-8039-4e97-ad6b-37b3daebbe3d)
 
-#### FineTuning のリクエスト
+### 2.FineTuning のリクエスト
 
 |ファイル名|概要|
 |:-:|:-:|
@@ -39,7 +42,7 @@
 
 ![image:モデルの学習フロー](https://github.com/nogikun/AI_Workshop/assets/94681885/5f208797-cf69-4b24-adcd-86f37b0f9622)
 
-#### 管理サーバー
+### 3.管理サーバー
 
 |ファイル名|概要|
 |:-:|:-:|
