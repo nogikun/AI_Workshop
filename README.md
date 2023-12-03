@@ -29,7 +29,7 @@
 
 |ファイル名|概要|
 |:-:|:-:|
-|[DataAugmentation_BERT.py]()|BERTモデルを使用し、入力データと似た文章を生成し、データ拡張を行うスクリプト|
+|[DataAugmentation_BERT.py](https://github.com/nogikun/AI_Workshop/blob/main/System/DataAugmentation/DataAugmentation_BERT.py)|BERTモデルを使用し、入力データと似た文章を生成し、データ拡張を行うスクリプト|
 
 **データ拡張の遷移図**
 
@@ -42,7 +42,7 @@
 
 |ファイル名|概要|
 |:-:|:-:|
-|[tuning_req.py]()|OoenAIへGPT3.5モデルのチューニングリクエストを送るスクリプト|
+|[tuning_req.py](https://github.com/nogikun/AI_Workshop/blob/main/System/tuning_req.py)|OoenAIへGPT3.5モデルのチューニングリクエストを送るスクリプト|
 
 **モデルの学習フロー**
 
@@ -55,7 +55,7 @@
 
 |ファイル名|概要|
 |:-:|:-:|
-|[stack_server.py]()|M5Stackと通信を行い、任意のIDに対応する学習済みモデル名を送信するスクリプト|
+|[stack_server.py](https://github.com/nogikun/AI_Workshop/blob/main/System/stack_server.py)|M5Stackと通信を行い、任意のIDに対応する学習済みモデル名を送信するスクリプト|
 
 **管理サーバーとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係**
 
