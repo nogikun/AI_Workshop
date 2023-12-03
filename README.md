@@ -52,7 +52,9 @@
 
 ### 3.管理サーバー
 ---
-
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nogikun/AI_Workshop)
+<br> ※クローンせずともCodespaces上で実行することができます。是非お使いください。
+<br>　また、サーバの起動方法などは [こちら](https://github.com/nogikun/AI_Workshop/blob/main/System/Server/README.md) を参照してください。
 |ファイル名|概要|
 |:-:|:-:|
 |[stack_server.py](https://github.com/nogikun/AI_Workshop/blob/main/System/stack_server.py)|M5Stackと通信を行い、任意のIDに対応する学習済みモデル名を送信するスクリプト|
