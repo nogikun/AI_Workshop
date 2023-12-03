@@ -25,7 +25,9 @@
 |:-:|:-:|
 |[DataAugmentation_BERT.py]()|BERTモデルを使用し、入力データと似た文章を生成し、データ拡張を行うスクリプト|
 
-![image](https://github.com/nogikun/AI_Workshop/assets/94681885/5abc5b69-8039-4e97-ad6b-37b3daebbe3d)
+**データ拡張の遷移図**
+
+![image:データ拡張の遷移図](https://github.com/nogikun/AI_Workshop/assets/94681885/5abc5b69-8039-4e97-ad6b-37b3daebbe3d)
 
 #### FineTuning のリクエスト
 
@@ -33,7 +35,9 @@
 |:-:|:-:|
 |[tuning_req.py]()|OoenAIへGPT3.5モデルのチューニングリクエストを送るスクリプト|
 
-![image](https://github.com/nogikun/AI_Workshop/assets/94681885/5f208797-cf69-4b24-adcd-86f37b0f9622)
+**モデルの学習フロー**
+
+![image:モデルの学習フロー](https://github.com/nogikun/AI_Workshop/assets/94681885/5f208797-cf69-4b24-adcd-86f37b0f9622)
 
 #### 管理サーバー
 
@@ -41,4 +45,6 @@
 |:-:|:-:|
 |[stack_server.py]()|M5Stackと通信を行い、任意のIDに対応する学習済みモデル名を送信するスクリプト|
 
-![image](https://github.com/nogikun/AI_Workshop/assets/94681885/09db193e-245d-43d7-8235-06d2d8c342b2)
+**管理サーバーとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係**
+
+![image:管理サーバとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係](https://github.com/nogikun/AI_Workshop/assets/94681885/09db193e-245d-43d7-8235-06d2d8c342b2)
