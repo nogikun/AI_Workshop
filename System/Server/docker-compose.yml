@@ -25,3 +25,14 @@ services:
       - "3000:80"
     volumes:
       - ./phpmyadmin/sessions:/sessions
+  
+  web:
+    image: python:3.10.12
+    volumes:
+      - ./python/requirements.txt:/requirements.txt
+      - ./python/manage.py:/manage.py
+    command: >
+      bash -c "pip install -r requirements.txt
+      && python manage.py"
+    ports:
+      - "8000:5000"
