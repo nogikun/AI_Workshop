@@ -11,6 +11,7 @@ CREATE USER 'server'@'%' IDENTIFIED BY 'serverpass';
 -- Manager
 GRANT SELECT ON AI_Workshop_Management.* TO 'manager'@'%';
 GRANT INSERT ON AI_Workshop_Management.* TO 'manager'@'%';
+GRANT UPDATE ON AI_Workshop_Management.* TO 'manager'@'%';
 
 -- Server
 GRANT SELECT ON AI_Workshop_Management.* TO 'server'@'%';
