@@ -1,2 +1,2 @@
-iPhone12mini_k
-kazu4510471
+{接続先WiFiのSSIDを記載}
+{該当するパスワードを記載}
