@@ -61,4 +61,4 @@
 
 **管理サーバーとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係**
 
-![image:管理サーバとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係](https://github.com/nogikun/AI_Workshop/assets/94681885/09db193e-245d-43d7-8235-06d2d8c342b2)
+![image](https://github.com/nogikun/AI_Workshop/assets/94681885/f8e64570-6e16-43d3-9dd1-b4d21e14d607)
