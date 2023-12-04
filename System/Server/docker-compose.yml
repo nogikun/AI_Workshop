@@ -25,17 +25,6 @@ services:
       - "3000:80"
     volumes:
       - ./phpmyadmin/sessions:/sessions
-  
-  manager:
-    image: python:3.10.12
-    volumes:
-      - ./manager/requirements.txt:/requirements.txt
-      - ./manager/manager.py:/manager.py
-    command: >
-      bash -c "pip install -r requirements.txt
-      && python manager.py"
-    ports:
-      - "8001:5000"
 
   stcak_server:
     image: python:3.10.12
