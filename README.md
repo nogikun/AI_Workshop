@@ -57,7 +57,7 @@
 <br>　また、サーバの起動方法などは [こちら](https://github.com/nogikun/AI_Workshop/blob/main/System/Server/README.md) を参照してください。
 |ファイル名|概要|
 |:-:|:-:|
-|[stack_server.py](https://github.com/nogikun/AI_Workshop/blob/main/System/stack_server.py)|M5Stackと通信を行い、任意のIDに対応する学習済みモデル名を送信するスクリプト|
+|[stack_server.py](https://github.com/nogikun/AI_Workshop/blob/main/System/Server/stack_server/stack_server.py)|M5Stackと通信を行い、任意のIDに対応する学習済みモデル名を送信するスクリプト<br> ※ Dockerを使用|
 
 **管理サーバーとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係**
 
