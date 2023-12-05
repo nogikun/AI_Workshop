@@ -77,19 +77,16 @@ def word_prediction(text = "早稲田 大学 で 自然 言語 処理 を [MASK]
 file_path = input('ファイルパスを教えてください（ファイル名を除く）：')
 DATA = pd.read_excel(f'{file_path}/FineTuningData.xlsx') # ファイル名は適宜変更する。
 
-for i in range(len(DATA['user'])):
-  #input(DATA['user'][i])
+# １文に対して何個の言い換え文を作成するかを決定する
+add_num = int(input('一つのワードに対して何個の言い換え文を作成しますか？（数字のみ）：'))
 
+for i in range(len(DATA['user'])):
   # 言い換え文を作成
   new_keywords = []
   for text in wakachi(text = DATA['user'][i]): # userの入力文を与える
-    #input(text)
-    for word in word_prediction(text,int(input('一つのワードに対して何個の言い換え文を作成しますか？（数字のみ）：'))):
+    for word in word_prediction(text,add_num):
       if word not in  ['。','、','?','!','.','...','......','−','–','――','「','」','～','(',')','『','”',':']:
         new_keywords.append( text.replace('[MASK]', word).replace(' ', '') )
-
-
-  #new_keywords = ['a','b','c']
 
   # 拡張したデータを追加
   for new_keyword in new_keywords:
@@ -99,7 +96,6 @@ for i in range(len(DATA['user'])):
         'assistant':DATA['assistant'][i]
         }])
     DATA = pd.concat([DATA, new_data], ignore_index=True)
-
 
 # チューニングデータを作成
 TunigData = []
@@ -116,4 +112,5 @@ with open(f'{file_path}/TuningData.jsonl', 'w') as file:
   for entry in TunigData:
       file.write(json.dumps(entry) + '\n')
 
-print('学習用ファイルを作成しました。')
+print(f'学習用ファイルを作成しました。\nファイルパス:{file_path}/TuningData.jsonl')
+print(DATA)
