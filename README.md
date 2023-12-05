@@ -24,7 +24,7 @@
 ### 1.データセットの拡張
 ---
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/DataAugmentation/DataAugmentation_BERT.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/DataAugmentation/JupyterNotebook/DataAugmentation_BERT.ipynb)
 <br> ※お手持ちのデバイスがGPUを搭載していない場合は、上記のボタンをクリックしてGoogle Colaboratory上で実行してください。
 
 |ファイル名|概要|
