@@ -48,6 +48,12 @@
 
 ![image:モデルの学習フロー](https://github.com/nogikun/AI_Workshop/assets/94681885/5f208797-cf69-4b24-adcd-86f37b0f9622)
 
+**学習jobの進捗を確認する方法**
+
+下記リンクのOpenAIのダッシュボードへアクセスし、学習jobの進捗を確認することができます。
+
+ダッシュボード：[platform.openai.com/finetune](https://platform.openai.com/finetune) 
+
 <br>
 
 ### 3.管理サーバー
