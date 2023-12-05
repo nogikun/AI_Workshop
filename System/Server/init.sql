@@ -16,7 +16,7 @@ GRANT UPDATE ON AI_Workshop_Management.* TO 'manager'@'%';
 -- Server
 GRANT SELECT ON AI_Workshop_Management.* TO 'server'@'%';
 
--- データを追加
+-- 初期値を追加
 INSERT INTO Model(ModelName) VALUES('gpt-3.5-turbo-0613');
 INSERT INTO Model(ModelName) VALUES('gpt-3.5-turbo-0613');
 INSERT INTO Model(ModelName) VALUES('gpt-3.5-turbo-0613');
