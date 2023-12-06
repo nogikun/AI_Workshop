@@ -92,4 +92,4 @@
 
 <br>
 
-※　ファームウェアの書き出しについては　[こちら](https://github.com/nogikun/AI_Workshop/tree/main/stackchan/Firmware) をご参照ください。
+※　ファームウェアの書き出しについては [こちら](https://github.com/nogikun/AI_Workshop/tree/main/stackchan/Firmware) をご参照ください。
