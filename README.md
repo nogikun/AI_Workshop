@@ -89,7 +89,7 @@
 
 **"ｽﾀｯｸﾁｬﾝ"の外装**
 
-<img src="https://github.com/nogikun/AI_Workshop/assets/94681885/0e75a7eb-0c37-43bc-9a92-b8abca8415ff.jpg" width="30%">
+<img src="https://github.com/nogikun/AI_Workshop/assets/94681885/0e75a7eb-0c37-43bc-9a92-b8abca8415ff.jpg" width="50%">
 
 <br>
 
