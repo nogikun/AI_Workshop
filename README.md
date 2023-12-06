@@ -1,4 +1,5 @@
 # AI_Workshop 仕様書
+※ お問い合わせの際は、 [新たにIssues](https://github.com/nogikun/AI_Workshop/issues/new) を立てて頂けますと幸いです。
 
 **目次**
 - [AI\_Workshop 仕様書](#ai_workshop-仕様書)
