@@ -29,8 +29,8 @@
 
 |ファイル名|概要|実行|
 |:-:|:-:|:-:|
-|[DataAugmentation_BERT.py](https://github.com/nogikun/AI_Workshop/blob/main/System/DataAugmentation/DataAugmentation_BERT.py)|BERTモデルを使用し、入力データと似た文章を生成し、データ拡張を行うスクリプト|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/DataAugmentation/JupyterNotebook/DataAugmentation_BERT.ipynb)|
-|[DataAugmentation.py](https://github.com/nogikun/AI_Workshop/blob/main/System/DataAugmentation/DataAugmentation.py)|同一のデータを入力値倍し、データ件数を増やすスクリプト|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/DataAugmentation/JupyterNotebook/DataAugmentation.ipynb)|
+|[DataAugmentation_BERT.py](https://github.com/nogikun/AI_Workshop/blob/main/System/DataAugmentation/DataAugmentation_BERT.py)|BERTモデルを使用し、入力データと似た文章を生成し、データ拡張を行うスクリプト|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/JupyterNotebook/DataAugmentation/DataAugmentation_BERT.ipynb)|
+|[DataAugmentation.py](https://github.com/nogikun/AI_Workshop/blob/main/System/DataAugmentation/DataAugmentation.py)|同一のデータを入力値倍し、データ件数を増やすスクリプト|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/JupyterNotebook/DataAugmentation/DataAugmentation.ipynb)|
 
 **データ拡張の遷移図**
 
@@ -41,9 +41,10 @@
 ### 2.FineTuning のリクエスト
 ---
 
-|ファイル名|概要|
-|:-:|:-:|
-|[tuning_req.py](https://github.com/nogikun/AI_Workshop/blob/main/System/tuning_req.py)|OoenAIへGPT3.5モデルのチューニングリクエストを送るスクリプト|
+|ファイル名|概要|実行|
+|:-:|:-:|:-:|
+|[tuning_req.py](https://github.com/nogikun/AI_Workshop/blob/main/System/tuning_req.py)|OoenAIへGPT3.5モデルのチューニングリクエストを送るスクリプト|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nogikun/AI_Workshop/blob/main/System/JupyterNotebook/RequestFineTuning/tuning_req.ipynb)|
+
 
 **モデルの学習フロー**
 
