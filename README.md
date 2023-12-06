@@ -7,6 +7,7 @@
     - [1.データセットの拡張](#1データセットの拡張)
     - [2.FineTuning のリクエスト](#2finetuning-のリクエスト)
     - [3.管理サーバー](#3管理サーバー)
+    - [4.ｽﾀｯｸﾁｬﾝ のファームウェアについて](#4ｽﾀｯｸﾁｬﾝ-のファームウェアについて)
 
 ### 背景
 このレポジトリでは小学生向けのAIワークショップを行うために使用したソースコードをまとめております。
@@ -79,3 +80,16 @@
 **管理サーバーとM5Stack（ｽﾀｯｸﾁｬﾝ）との関係**
 
 ![image](https://github.com/nogikun/AI_Workshop/assets/94681885/f8e64570-6e16-43d3-9dd1-b4d21e14d607)
+
+### 4.ｽﾀｯｸﾁｬﾝ のファームウェアについて
+
+今回、使用するAIロボットは 「 **ｽﾀｯｸﾁｬﾝ** 」 と呼ばれるロボットです。
+外装はこの通りとなっております。
+
+**"ｽﾀｯｸﾁｬﾝ"の外装**
+
+<img src="https://github.com/nogikun/AI_Workshop/assets/94681885/0e75a7eb-0c37-43bc-9a92-b8abca8415ff.jpg" width="30%">
+
+<br>
+
+※　ファームウェアの書き出しについては　[こちら](https://github.com/nogikun/AI_Workshop/tree/main/stackchan/Firmware) をご参照ください。
