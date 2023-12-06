@@ -65,7 +65,6 @@
 
 ![image](https://github.com/nogikun/AI_Workshop/assets/94681885/79880046-acc3-4271-bd3f-e457a3d0cebc)
 
-![image](https://github.com/nogikun/AI_Workshop/assets/94681885/304c8351-60b2-4656-9d68-35fc5989bd36)
 
 
 <br>
