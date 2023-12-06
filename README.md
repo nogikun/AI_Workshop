@@ -51,9 +51,12 @@
 
 **学習jobの進捗を確認する方法**
 
-下記リンクのOpenAIのダッシュボードへアクセスし、学習jobの進捗を確認することができます。
-ログインしていない場合は、遷移先でログインを行ってください。
+下記リンクのOpenAIのダッシュボードへアクセスし、下図のような学習jobの進捗を確認することができます。<br>
+ログインしていない場合は、遷移先でログインを行ってください。<br>
 ダッシュボード：[platform.openai.com/finetune](https://platform.openai.com/finetune) 
+
+![image](https://github.com/nogikun/AI_Workshop/assets/94681885/090e944d-64e4-48a1-b717-c29a8aafd0b1)
+
 
 <br>
 
