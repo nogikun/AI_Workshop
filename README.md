@@ -55,7 +55,13 @@
 ログインしていない場合は、遷移先でログインを行ってください。<br>
 ダッシュボード：[platform.openai.com/finetune](https://platform.openai.com/finetune) 
 
-![image](https://github.com/nogikun/AI_Workshop/assets/94681885/090e944d-64e4-48a1-b717-c29a8aafd0b1)
+<img src="https://github.com/nogikun/AI_Workshop/assets/94681885/090e944d-64e4-48a1-b717-c29a8aafd0b1.jpg" width="70%">
+
+<br><br>
+
+また学習完了するとこのようなメールが届き、モデル名が記載されています。このモデル名をデータベースに書き込みます。<br>
+※ `ft:{Base Model}:pearsonal::{id}`に形で記載されています。<br><br>
+<img src="https://github.com/nogikun/AI_Workshop/assets/94681885/2ecbc256-f8b8-4f2d-96cd-009f65fc0014.jpg" width="30%">
 
 
 <br>
