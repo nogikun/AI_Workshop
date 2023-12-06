@@ -60,7 +60,7 @@
 <br><br>
 
 また学習完了するとこのようなメールが届き、モデル名が記載されています。このモデル名をデータベースに書き込みます。<br>
-※ `ft:{Base Model}:pearsonal::{id}`に形で記載されています。<br><br>
+※ モデル名は `ft:{Base Model}:pearsonal::{id}` の形式で発行されます。<br><br>
 <img src="https://github.com/nogikun/AI_Workshop/assets/94681885/2ecbc256-f8b8-4f2d-96cd-009f65fc0014.jpg" width="50%">
 
 
