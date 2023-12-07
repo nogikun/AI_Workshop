@@ -66,7 +66,7 @@ def get_text():
         return jsonify({'message': 'Text parameter is missing'}), 400
 
 if __name__ == '__main__':
-    #app.run(host='0.0.0.0', port=5000)
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
+    #app.run()
 
 print('SERVER STOPPED')
