@@ -1,7 +1,7 @@
 # DataAugmentation_BERT.py
 numpy==1.23.5
 pandas==1.5.3
-transformers==4.35.2
+transformers==4.36.0
 sentencepiece==0.1.99
 protobuf==3.20.3
 mecab-python3==1.0.8
